@@ -1,0 +1,788 @@
+
+*
+{
+    margin :0 ;
+    padding : 0 ;
+    font-family : Helvetica, Arial, sans-serif ;
+    scroll-behavior : smooth ;
+}
+
+#header
+{
+    height : 100vh ;
+    background-image : url(Images/mainDonate.jpg) ;
+    background-position : center ; /* top , bottom , left , right , center */
+    background-image : auto ; /* auto , contain , cover */
+}
+
+.container
+{
+    margin-right : 100px ;
+    margin-left : 100px ;
+}
+
+.logo 
+{
+    margin-left : -30px ;
+    width :300px ;
+}
+
+.header-text
+{
+  max-width : 350px ;
+  margin-top : 240px ;
+}
+
+h1
+{
+    font-size : 35px ;
+}
+
+
+.common-btn
+{
+    padding : 18px 40px ;
+    background : transparent ;
+    outline : none ;
+    border : 2px solid #8C5A49 ;
+    font-weight : bold ;
+    cursor : pointer ; 
+}
+
+p
+{
+    font-size : 15px ;
+    line-height : 18px ;
+    color : #777 ;
+}
+
+.header-text button 
+{
+    margin-top : 20px ;
+    margin-bottom : 60px ;
+}
+
+
+#sideNav
+{
+    width : 250px ;
+    height :100vh ;
+    position : fixed ;
+    right : -250px ;
+    top : 0 ;
+    background : #231F20 ;
+    transition : 1.0s ;
+}
+
+#sideNav a:hover
+ {
+  color : #F7D7B5 ;
+ }
+
+
+nav ul li 
+{
+    list-style : none ;
+    margin : 50px 20px  ;
+}
+
+nav ul li a
+{
+    text-decoration : none ;
+    color : #ffffff ;
+}
+
+#menuBtn
+{
+    width : 120px ;
+    right : 25px ;
+    top : 25px ;
+    cursor : pointer ; 
+    position : absolute ; /* absolute , relative , fixed */
+    z-index : 2 ; /* Note: Z index only works on positioned elements */
+}
+
+/*---Secondary icons--*/
+
+.secondary-icons
+{
+    display : inline ;
+    width : 50px ;
+    top : 70% ;
+    right : 200px ;
+    float : right ;
+    transform : translateY(-50%) ;
+    z-index : 1 ;  
+}
+
+.secondary-icons img
+{
+    width : 30px ;
+    margin : 0 auto 20px ;
+    cursor : pointer ;
+}
+
+
+
+/*---FEATURES---*/
+
+#features
+{
+    padding-top : 50px ;
+    padding-bottom : 50px ;
+    background-color : #EFEFEF ;
+}
+
+.feature-row-title
+{
+    text-align : center ;
+    margin : 60px ;
+}
+
+.feature-row-title ul li 
+{
+    list-style : none ;
+}
+
+.feature-row
+{
+    width : 80% ;
+    margin : auto ;
+    display : flex ;
+    align-items : center ;
+    justify-content : space-around ;
+    flex-wrap : wrap ;
+}
+
+.feature-col
+{
+    flex-basis : 25% ;
+    text-align : center ;
+    background-color : #FFFFFF ;
+    margin-bottom : 20px ;
+    padding-bottom : 40px ;
+}
+
+.feature-col p , .feature-col h4
+{
+    padding : 20px ;
+}
+
+.feature-col img
+{
+    width : 350px ;
+  
+}
+
+.feature-col h4
+{
+    padding-bottom : 15px ;
+    font-size : 20px ;
+    font-weight : 400 ;
+}
+
+/* --- turtle----- */
+
+#turtle
+{
+    padding : 100px 0  ; /* (top and bottom)=100px  and (left and right)=0 */
+    display : flex ; /* block , contents , flex , flow-root , grid , inherit , inline */
+    align-items : center ;  /* baseline,center,flex-end,flex-start,stretch */
+    flex-wrap : wrap ;
+}
+
+.turtle-left-col
+{
+    flex-basis : 50% ;
+}
+
+.turtle-left-col img
+{
+    width : 100% ;
+    margin-left : 60px ;
+}
+
+.turtle-right-col
+{
+    flex-basis : 50% ;
+    text-align : right ;
+}
+.turtle-text
+{
+    max-width : 500px ;
+    margin-right : 100px ;
+    display : inline-block ;
+    text-align : center ;
+}
+
+
+.turtle-text h2
+{
+    text-align : justify ;
+    font-size : 20px ;
+    
+}
+
+
+/*-- footer ---*/
+
+#footer 
+{
+    padding : 50px 0  30px ;
+}
+
+hr 
+{
+    width : 100% ;
+    border : 0 ;
+    border-top : 3px solid #8C5A49 ;
+    margin-bottom : 20px ;
+    margin-top : -20px ;
+}
+
+.footer-row
+{
+    display : flex ;
+    align-items : center ;
+    justify-content : space-between ; /*-- the remaining 15% will be allocated between left and right col---*/
+    flex-wrap : wrap ;
+}
+
+.footer-left-col
+{
+    flex-basis : 50% ;
+    margin-top : 60px ;
+}
+
+.footer-right-col
+{
+    flex-basis : 35% ;
+}
+
+.footer-links
+{
+    display : flex ;
+    justify-content : space-between ; 
+    flex-wrap : wrap ;
+}
+
+.link-title h4 
+{
+    color : #8C5A49 ;
+    margin : 20px ;
+}
+
+.link-title small 
+{
+    color : #777 ;
+    font-size : 13px ;
+}
+
+.footer-info
+{
+    display : flex ;
+    align-items : flex-end ;
+    justify-content : space-between ; 
+    flex-wrap : wrap ;
+}
+
+.footer-logo img
+{
+    width : 100% ;   
+}
+
+.footer-logo button
+{
+    padding : 12px 12px ;
+    margin-top : 20px ;
+    font-size : 10px ;
+}
+
+.copyright-text , .footer-logo
+{
+    flex-basis : 40% ;
+}
+
+/*---Social media icons--*/
+
+.social-icons
+{
+    width : 50px ;
+    position : fixed ;
+    top : 50% ;
+    left : 10px ;
+    transform : translateY(-50%) ;
+    z-index : 1 ;
+}  
+
+
+.social-icons img
+{
+    display : block ;
+    width : 30px ;
+    margin : 0 auto 20px ;
+    cursor : pointer ;
+}
+
+#donation
+  {
+    width: 70%;
+    height : auto ;
+    padding: 12px;
+    border: 5px solid #8C5A49  ;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    font-size : 20px ;
+    color : #8C5A49 ;
+    font-weight : bold ;
+    cursor : pointer ;
+
+  }
+
+  #donation:hover
+  {
+    color : #000000 ;
+    background-color : #EFEFEF ;
+  }
+
+  input[type = "text"] 
+{
+    width : 70% ;
+    background : #EFEFEF ;
+    color : #000000;
+    border : 3px solid #8C5A49 ;
+    padding : 10px ;
+    font-size : 18px ;
+}
+
+/*-- contact ---*/
+
+.contact
+{
+    min-height: 100vh ;
+    padding : 50px 100px ;
+    display: flex ;
+    justify-content : center ;
+    align-items : center ;
+    flex-direction : column ;
+    background : #F8F1E0 ;
+    background-size : cover ;
+}
+
+.contact content
+{
+    max-width : 800px ;
+    text-align : center ;
+}
+
+.contact content h1
+{
+    font-size : 40px ;
+    font-weight : 500 ;
+    color : #FFFFFF ;
+}
+
+
+.container-contact
+{
+    width : 100% ;
+    display : flex ;
+    justify-content : center ;
+    align-items : center ;
+    margin-top : 30px ;
+}
+
+.container-contact .contactInfo
+{
+    width : 50% ;
+    display : flex ;
+    flex-direction : column ;
+}
+
+.container-contact .contactInfo .box
+{
+    position : relative ;
+    padding : 20px 0 ;
+    display : flex ;
+}
+
+.container-contact .contactInfo .box .icon
+{
+    min-width : 60px ;
+    height : 60px ;
+    background : #fff ;
+    display : flex ;
+    justify-content : center ;
+    align-items : center ;
+    border-radius : 50% ;
+    font-size : 22px ;
+    margin-right : 20px ;
+}
+
+.container-contact .contactInfo .box .text
+{
+    display : flex ;
+    margin-left : 20px ;
+    font-size : 16px ;
+    color : #fff ;
+    flex-direction : column ;
+    font-weight : 300 ;
+}
+
+.text a
+{
+    text-decoration : none ;
+    font-size : 18px ;
+}
+
+.container-contact .contactInfo .box .text h3
+{
+    color : #8C5A49 ;
+    font-weight : 400 ;
+}
+
+.contactForm 
+{
+    width : 40% ;
+    padding : 40px ;
+    background : #fff ;
+}
+
+.contactForm h2
+{
+    font-size : 25px ;
+    color : #333 ;
+    font-weight : 500 ;
+}
+
+.contactForm .inputBox
+{
+    position : relative ;
+    width : 100% ;
+    margin-top : 10px ;
+}
+
+.contactForm .inputBox input , 
+.contactForm .inputBox textarea
+{
+    width : 100% ;
+    padding : 5px 0 ;
+    font-size : 16px ;
+    margin : 20px 0 ;
+    border : none ;
+    border-bottom : 2px solid #333 ;
+    outline : none ;
+}
+
+
+.contactForm .inputBox span
+{
+    
+    left : 0 ;
+    padding : 5px 0 ;
+    font-size : 16px ;
+    margin : 10px 0 ;
+    pointer-events : none ;
+    transition : 0.5s ;
+    color : #666 ;
+}
+
+
+
+.contactForm .inputBox input[type = "submit"] 
+{
+    width : 200px ;
+    background : #8C5A49 ;
+    color : #FFFFFF ;
+    border : none ;
+    cursor : pointer ;
+    padding : 10px ;
+    font-size : 18px ;
+}
+
+.contactForm .inputBox input[type = "button"] 
+{
+    width : 150px ;
+    background : #FFFFFF ;
+    color : #8C5A49 ;
+    border : 3px solid #8C5A49 ;
+    cursor : pointer ;
+    padding : 10px ;
+    font-size : 18px ;
+}
+
+.contactForm .inputBox input[type = "button"]:hover
+{
+    background : #EFEFEF ;
+}
+
+.contactForm .inputBox input[type = "button"]:after
+{
+    background : #8C5A49 ;
+    color : #FFFFFF ;
+    border : 3px solid #8C5A49 ;
+    cursor : pointer ;
+}
+
+.contactForm .inputBox input[type = "checkbox"] 
+{
+    width : auto ;
+    margin : 10px ;
+    background : #FFFFFF ;
+    color : #8C5A49 ;
+    border : 3px solid #8C5A49 ;
+    cursor : pointer ;
+    padding : 10px ;
+    font-size : 18px ;
+}
+
+.amountButtons
+{
+    margin : auto ;
+    display : flex ;
+    align-items : center ;
+    justify-content : space-around ;
+    flex-wrap : wrap ;
+}
+
+.inputBox 
+{
+    flex-basis : 30% ; 
+}
+
+
+@media only screen and ( max-width : 1200px)
+{
+    .about-left-col , .about-right-col
+    {
+        flex-basis : 100% ;
+    }
+
+    .about-left-col img
+    {
+        margin-left : 0 ;
+    }    
+
+    .turtle-left-col , .turtle-right-col
+    {
+        flex-basis : 100% ;
+    }
+
+    .turtle-left-col img
+    {
+        margin-left : 0 ;
+    }    
+}
+
+
+@media only screen and ( max-width : 770px)
+{
+    #header
+    {
+        background-image : none ;
+    }
+
+    .container
+    {
+        margin-right : 50px ;
+        margin-left : 100px ;
+    }
+    
+    .logo 
+    {
+        margin-top : 47px ;
+        width : 330px ;
+    }
+
+    .header-text
+    {
+        margin-top : 100px ;
+    }
+
+    h1
+    {
+        font-size : 25px ;
+    }
+
+    #menuBtn
+    {
+        width : 80px ;
+        right : 50px ;
+    }
+
+    .common-btn
+    {
+        padding : 10px 16px ;
+    }
+
+    .social-icons img
+    {
+        width : 20px ;
+        margin : 15px auto ;
+    }
+
+    .feature-row-title
+    {
+        margin : 55px;
+        padding : 20px ;
+    }
+
+    .feature-col
+    {
+        flex-basis :100% ;
+        margin-bottom : 40px ;
+    }
+
+    .feature-col p , .feature-col h4
+    {
+       margin : 0 ;
+    }
+
+    /*------------------------*/
+    .contact 
+    {
+        padding : 50px ;
+    }
+    
+    .container-contact
+    {
+        flex-direction : column ;
+    }
+    
+    .container-contact .contactInfo
+    {
+        margin-bottom : 30px ;
+        margin-left : 10px ;
+    }
+
+    .container-contact
+    .contactInfo ,
+    .contactForm
+    {
+        width : 90% ;
+    }
+
+    /*------------------------*/
+
+    .turtle-left-col img
+    {
+        margin-left : 0 ;
+    }
+
+    .turtle-text
+    {
+        margin: 50px 50px 0 ;
+        display : inline-block ;
+    }
+
+
+    .turtle-text h2
+    {
+        padding : 15px ;
+        font-size : 15px ;
+        font-weight : normal ;
+        text-align : justify ;
+    }
+    
+
+    .footer-left-col , .footer-right-col
+    {
+        flex-basis : 100% ;
+    }
+
+    .link-title  
+    {
+        flex-basis : 50% ;
+        margin-bottom : 30px ;
+    }
+
+    hr 
+    {
+        border-top : 1px solid #8C5A49 ;
+    }
+
+    .footer-logo img
+    {
+        width : 150px ;
+        margin-bottom : 80px ;
+        margin-left : -150px ;
+    }
+}
+
+@media only screen and ( max-width : 450px)
+{
+    #donation
+    {
+        width: 90%;
+        
+        padding: 10px;
+        border: 3px solid #8C5A49  ;
+        font-size : 15px ;
+        font-weight : normal ;
+        cursor : pointer ;
+    }
+
+    input[type = "text"] 
+    {
+        width : 70% ;
+        background : #EFEFEF ;
+        color : #FFFFFF ;
+        border : 3px solid #8C5A49 ;
+        padding : 10px ;
+        font-size : 12px ;
+    }
+
+    label
+    {
+        font-size : 12px ;
+    }
+
+
+    .container-contact .contactInfo .box .icon
+    {
+        min-width : 20px ;
+        height : 20px ;
+        font-size : 10px ;
+        margin-right : 5px ;
+    }
+
+    .container-contact .contactInfo .box .text h3
+    {
+        font-weight : 400 ;
+        font-size : 15px ;
+    }
+
+    .container-contact .contactInfo .box .text p
+    {
+        font-size : 12px ;
+    }
+
+    .contactForm h2
+    {
+        font-size : 15px ;
+        font-weight : bold ;
+    }
+
+    .contactForm 
+    {
+        padding-right: 0 ;
+        
+    }
+    .logo 
+    {
+        margin-top : 47px ;
+        width : 330px ;
+    }
+    .content h1
+    {
+        font-size : 16px ;
+        font-weight :bold ;
+    }
+
+    .inputBox label
+    {
+        font-size : 12px ;
+    }
+
+}

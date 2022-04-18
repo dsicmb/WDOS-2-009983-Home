@@ -1,0 +1,295 @@
+<!Doctype html>
+<html lan = "en">
+<head>
+    <meta charset = "UTF-8">
+    <meta name = "viewport" content = "width=device-width, initial-scale=1">
+
+    <!-- Placing the generated icons and the base manifest file -->
+    
+    <link rel = "apple-touch-icon" sizes = "180x180" href = "Images/apple-touch-icon.png">
+    <link rel = "icon" type = "image/png" sizes = "32x32" href = "Images/favicon-32x32.png">
+    <link rel = "icon" type = "image/png" sizes = "16x16" href = "Images/favicon-16x16.png">
+    <link rel = "manifest" href = "manifest.json">
+    <link rel = "mask-icon" href = "Images/safari-pinned-tab.svg" color = "#a66212">
+    <link rel = "shortcut icon" href = "Images/favicon.ico">
+    <meta name = "msapplication-TileColor" content = "#da532c">
+    <meta name = "msapplication-config" content = "Images/browserconfig.xml">
+    <meta name = "theme-color" content = "#9b6d36">
+
+    <title> Dehiwala Zoo - Donate ... </title>
+    
+    <link rel = "stylesheet" href = "donate.css">
+    <script src="https://kit.fontawesome.com/230a9c72ed.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <section id = "header">
+        <div class = "container">
+           <div class = "logo">
+               <a href = "index.html"><img src = "Images/logo.jpg" title = " WELCOME TO DEHIWALA ZOO" class = "logo"></a>
+           </div>  
+               <div class = "header-text">
+                <h1>A Friend In Need  <br> Is A Friend Indeed ...</h1><br><br>
+               
+                <p> Your most generous gift fuels critical conservation worldwide, cares for countless animals and plants at the 
+                    Zoo and offers hope to our most extraordinary wildlife relying on us to survive — and thrive — each and every day.</p>
+            </div>
+        </div>
+    </section>
+
+    <nav id = "sideNav">
+        <ul>
+            <li><a href = "https://dsicmb.github.io/WDOS-2-009983-Home/index.html"> HOME </a></li>
+            <li><a href = "https://dsicmb.github.io/WDOS-2-009983-Animals/"> ANIMALS </a></li>
+            <li><a href = "https://dsicmb.github.io/WDOS-2-009983-Plants/"> PLANTS </a></li>
+            <li><a href = "https://dsicmb.github.io/WDOS-2-009983-Activities/"> ACTIVITIES </a></li>
+            <li><a href = "https://dsicmb.github.io/WDOS-2-009983-Home/purchase.html"> PURCHASE </a></li>
+            <li><a href = "https://dsicmb.github.io/WDOS-2-009983-Home/donate.html"> DONATE </a></li>
+            <li><a href = "https://dsicmb.github.io/WDOS-2-009983-Home/contact.html"> CONTACT US </a></li>
+       </ul> 
+   </nav>
+
+
+   <img src = "Images/mainMenu.jpg" id = "menuBtn" title = "CLICK HERE TO GO MENU BAR ...">
+
+
+<!---03-FEATURES--->
+ 
+<section id = "features">
+    <div class = "feature-row">
+        <div class = "feature-col">
+            <img src = "Images/conserving1.jpg"><br><br>
+            <h4>We are Saving</h4>
+        </div>
+        <div class = "feature-col">
+            <img src = "Images/conserving2.jpg"><br><br>
+            <h4>We are Conserving</h4>
+        </div>
+        <div class = "feature-col">
+            <img src = "Images/conserving3.jpg"><br><br>
+            <h4>We are Caring</h4>
+        </div>
+    </div>
+</section>
+
+<!--Contact-->
+
+<section class = "contact">
+    <div class = "content">
+        <h1>Your Donation Their Salvation</h1>
+    </div>
+    <div class = "container-contact">
+        <div class = "contactInfo">
+            <div class = "box">
+                <div class = "icon"><i class="fa-solid fa-building-columns" aria-hidden="true"></i></div>
+                <div class = "text">
+                    <h3>National Savings Bank</h3><br>
+                    <p>Dehiwala Zoological Garden</p><br>
+                    <p>Account Number <b>: 800 104 2658</b></p><br>
+                    <p>Dehiwala Branch</p><br>
+                </div>
+            </div>
+
+            <div class = "box">
+                <div class = "icon"><i class="fa-solid fa-building-columns" aria-hidden="true"></i></div>
+                <div class = "text">
+                    <h3>Bank Of Ceylon</h3><br>
+                    <p>Dehiwala Zoological Garden</p><br>
+                    <p>Account Number <b>: 000 704 6543</b></p><br>
+                    <p>Dehiwala Branch</p><br>
+                </div>
+            </div>
+
+            <div class = "box">
+                <div class = "icon"><i class="fa-solid fa-building-columns" aria-hidden="true"></i></div>
+                <div class = "text">
+                    <h3>People's Bank</h3><br>
+                    <p>Dehiwala Zoological Garden</p><br>
+                    <p>Account Number <b>: 505 404 1998</b></p><br>
+                    <p>Dehiwala Branch</p><br>
+                </div>
+            </div>
+        </div>
+
+        <div class = "contactForm">
+            <form action="" method="get" onsubmit="return inputValidation();">
+
+                <h2>Donation Amount</h2><br />
+                <select name="donation" id="donation" >
+                    <option value="">Select your amount here</option>
+                    <option value="100">LKR 100</option>
+                    <option value="250">LKR 250</option>
+                    <option value="500">LKR 500</option>
+                    <option value="1000">LKR 1,000</option>
+                    <option value="2500">LKR 2,500</option>
+                    <option value="5000">LKR 5,000</option>
+                    <option value="7500">LKR 7,500</option>
+                    <option value="10000">LKR 10,000</option>
+                </select>
+                <br /><br />
+
+                
+                <h2>Your Information</h2><br />
+                <label>Full Name</label><br />
+                <input type="text" name="FullName" id="FullName" size="40" />
+                <br /><br />
+            
+                <label>E-mail</label><br />
+                <input type="text" name="eMail" id="eMail" size="40"/>
+                <br /><br />
+
+                <label>Mobile Number</label><br />
+                <input type="text" name="mobileNumber" id="mobileNumber" size="40" />
+                <br /><br />
+
+                <label>Address</label><br />
+                <input type="text" name="address" id="address" size="40" />
+                <br /><br />
+
+                <label>District / Province / State</label><br />
+                <input type="text" name="district" id="district" size="40" />
+                <br /><br />
+
+                <label>Country</label><br />
+                <input type="text" name="country" id="country" size="40" />
+                <br /><br />
+
+                <h2>Credit / Debit Card Information</h2><br>
+
+                <label>Card Number</label><br />
+                <input type="text" name="cardNumber" id="cardNumber" size="40" />
+                <br /><br />
+
+                <label>Expiration Month</label><br />
+                <input type="text" name="expMonth" id="expMonth" size="40" />
+                <br /><br />
+
+                <label>Expiration Year</label><br />
+                <input type="text" name="expYear" id="expYear" size="40" />
+                <br /><br />
+
+                <label>CVV Number</label><br />
+                <input type="text" name="cvvNumber" id="cvvNumber" size="40" />
+                <br /><br />
+
+                <div class = "inputBox">
+                    <input type = "checkbox" id = "newsCheck" name = "new"> 
+                    <label>Always keep me posted on the latest updates at Dehiwala Zoo.</label>
+                </div>
+                
+                <div class = "inputBox">
+                <input type="submit" value="Donate Now" />
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+
+
+<!-- turtle infomation -->
+
+<section id = "turtle">
+    <div class = "turtle-left-col">
+        <img src = "Images/turtle.jpg">
+    </div>
+ 
+    <div class = "turtle-right-col">
+        <div class = "turtle-text">
+        <h2>Donate with zero hesitation. Dehiwala Zoological Garden is under the 'Department Of National Zoological Gardens' of 
+            Sri Lanka. With more than 8 decades of wildlife care expertise and partnerships, we are saving, conserving 
+            and caring for species throughout the island. In order to move forward stronger than before, what we just need is, your support.
+        </h2>
+        </div>
+    </div>
+ </section>
+
+<!--Footer-->
+
+<section id = "footer">
+   <div class = "container footer-row">
+       <hr>
+       <div class = "footer-left-col">
+           <div class = "footer-links">
+               <div class = "link-title">
+                   <h4>Products</h4>
+                   <small>Our Plans</small><br>
+                   <small>Special Offers</small><br>
+                   <small>Ticket Options</small><br>
+                   <small>Adventure Tours</small><br>
+               </div>
+               <div class = "link-title">
+                   <h4>About Us</h4>
+                   <small>FAQs</small><br>
+                   <small>Advertise</small><br>
+                   <small>Request Plan</small><br>
+                   <small>Bussiness Plans</small>
+               </div>
+               <div class = "link-title">
+                   <h4>Support</h4>
+                   <small>Features</small><br>
+                   <small>Contact Us</small><br>
+                   <small>Accessibility</small><br>
+                   <small>Special Assistance</small>
+               </div>
+               <div class = "link-title">
+                   <h4>Explore</h4>
+                   <small>Careers</small><br>
+                   <small>Our Planet</small><br>
+                   <small>Our People</small><br>
+                   <small>Our Communities</small>
+               </div>
+           </div>
+       </div>
+       <div class = "footer-right-col">
+           <div class = "footer-info">
+               <div class = "copyright-text">
+                   <small>Dehiwala Zoo </small><br>
+                   <small>Sri Lanka © 2021</small><br>
+                   <small>All Rights Reserved</small>
+               </div>
+               <div class = "footer-logo">
+                   <a href = "index.html"><img src = "Images/logo.jpg" title = " WELCOME TO DEHIWALA ZOO" class = "logo"></a>
+                   <a href = "#header" title = "Click here to SCROLL to the TOP of the page"> <button class = "common-btn"> TOP </button></a>
+               </div>
+           </div>
+       </div>
+   </div>
+
+</section>
+
+
+
+<!--Social media icons-->
+
+<div class = "social-icons">
+   <a href = "https://www.facebook.com"><img src = "Images/facebook.png" title = "facebook"></a>
+   <a href = "https://www.instagram.com"><img src = "Images/instagram.png" title = "instagram"></a>
+   <a href = "https://www.twitter.com"><img src = "Images/twitter.png" title = "twitter"></a>
+   <a href = "https://www.linkedin.com"><img src = "Images/linkedin.png" title = "linkedin"></a>
+
+</div>
+
+
+   <script>
+       var menuBtn = document.getElementById("menuBtn") ;
+       var sideNav = document.getElementById("sideNav") ;
+
+       sideNav.style.right = "-250px" ;
+       menuBtn.onclick = function()
+           {
+               if (sideNav.style.right == "-250px")
+               {
+                   sideNav.style.right = "0" ;
+               }
+               else 
+               {
+                   sideNav.style.right = "-250px"
+               }
+           }
+   </script>
+
+<script src = "donate.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,105 @@
+/* Background size - slide 29 */
+ #p2 {
+    background-size:50px 50px;
+}
+
+#p3 {
+    background-size:20% auto;
+}  
+
+_________________________________________________________________
+
+
+/* Background Origin - Slide 31 */
+ #p1
+{
+background-origin:content-box;
+}
+
+#p2
+{
+background-origin:padding-box;
+}
+
+#p3
+{
+background-origin:border-box;
+} 
+
+___________________________________________________
+
+/*background clip - slide 32 */
+
+#p1
+{
+background:url(images/wallpaper.jpg) rgb(20, 20, 20) no-repeat;
+background-size:100% 100%;
+background-clip:content-box;
+font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#p2
+{
+background:url(images/wallpaper.jpg) rgb(20, 20, 20) no-repeat;
+background-size:100% 100%;
+background-clip:padding-box;
+font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#p3
+{
+background:url(images/wallpaper.jpg) rgb(20, 20, 20) no-repeat;
+background-size:100% 100%;
+background-origin:border-box;
+background-clip:border-box;
+font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+} 
+
+#p4
+{
+background:url(images/wallpaper.jpg) rgb(20, 20, 20) no-repeat;
+background-size:100% 100%;
+background-clip:text;
+-webkit-background-textclip: text;
+color:transparent;
+font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+} 
+
+____________________________________________________________________________
+
+/* multiple backgrounds - slide 34 */
+
+#p1
+{
+    color:black;
+    background-image:url(images/betweengrassandsky.png);
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+}
+#p2
+{
+    color:black;
+    background-image: url(images/sheep.png), url(images/betweengrassandsky.png);
+    background-position: center bottom, left top;
+    background-repeat: no-repeat;
+    background-size:128px 128px,100% 100% ;
+}
+#p3
+{
+    color:black;
+    background-image: url(images/sheep.png), url(images/sheep.png), url(images/betweengrassandsky.png);
+    background-position: center bottom, right bottom , left top;
+    background-repeat:no-repeat;
+    background-size:128px 128px,128px 128px,100% 100%;
+}
+
+#p4 /*note background colour */
+{
+    color:black;
+    background: url(images/sheep.png) center bottom no-repeat, url(images/sheep.png) right bottom no-repeat, black url(images/betweengrassandsky.png) left top no-repeat;
+    background-size:128px 128px,128px 128px,100% 100%;
+}
+
+__________________________________________________________________
+
